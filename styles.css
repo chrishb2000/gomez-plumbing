@@ -322,14 +322,14 @@ button {
 .hero-bg-image {
     position: absolute;
     inset: 0;
-    background: url('../images/plumbing-service-san-francisco-01.jpg') center center / cover no-repeat;
+    background: url('images/plumbing-service-san-francisco-01.jpg') center center / cover no-repeat;
     z-index: 0;
 }
 
 .hero-bg-pattern {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(15, 23, 42, 0.82) 0%, rgba(9, 64, 128, 0.78) 100%);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.55) 0%, rgba(9, 64, 128, 0.50) 100%);
     z-index: 1;
 }
 
