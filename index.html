@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags - English (Default) -->
+    <title id="meta-title">Gomez Plumbing | Professional Plumbing Services in San Francisco, CA</title>
+    <meta name="description" id="meta-description" content="Gomez Plumbing - Over 20 years of expert plumbing services in San Francisco. Emergency repairs, drain cleaning, water heater installation, sewer line services & more. Call (415) 266-0052 for 24/7 service.">
+    <meta name="keywords" id="meta-keywords" content="plumber San Francisco, plumbing services, emergency plumber, drain cleaning, water heater installation, sewer line repair, leak detection, bathroom remodeling, Gomez Plumbing, CA plumber">
+    <meta name="author" content="Gomez Plumbing">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gomezplumbing.com/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" id="meta-og-title" content="Gomez Plumbing | Professional Plumbing Services in San Francisco">
+    <meta property="og:description" id="meta-og-description" content="Trusted plumbing experts since 2004. 24/7 emergency service, licensed & insured. Free estimates. Call now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gomezplumbing.com/">
+    <meta property="og:image" content="images/gomez-plumbing-logo.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" id="meta-twitter-title" content="Gomez Plumbing | San Francisco's Trusted Plumbers">
+    <meta name="twitter:description" id="meta-twitter-description" content="Expert plumbing services with 20+ years experience. Available 24/7 for emergencies.">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "Gomez Plumbing",
+        "image": "images/gomez-plumbing-logo.jpg",
+        "url": "https://gomezplumbing.com",
+        "telephone": "+14152660052",
+        "email": "gomezplumbing650@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3994 Mission St",
+            "addressLocality": "San Francisco",
+            "addressRegion": "CA",
+            "postalCode": "94112",
+            "addressCountry": "US"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "150"
+        },
+        "priceRange": "$$"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/gomez-plumbing-logo.jpg">
+    <link rel="apple-touch-icon" href="images/gomez-plumbing-logo.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner"></div>
+            <p data-i18n="preloader.loading">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="images/gomez-plumbing-logo.jpg" alt="Gomez Plumbing Logo - Professional Plumber in San Francisco" class="logo-img" loading="eager">
+                <span class="logo-text">Gomez <span>Plumbing</span></span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav.about">About Us</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn" data-lang="es" aria-label="Cambiar a Español">ES</button>
+                </div>
+                <a href="tel:+14152660052" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>(415) 266-0052</span>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-image"></div>
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-badge" data-aos="fade-up">
+                    <i class="fas fa-shield-alt"></i>
+                    <span data-i18n="hero.badge">Trusted Since 2004</span>
+                </div>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    <span data-i18n="hero.title1">Expert Plumbing</span>
+                    <span class="highlight" data-i18n="hero.title2">Solutions You Can Trust</span>
+                </h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200" data-i18n="hero.subtitle">
+                    Over 20 years of professional plumbing services in San Francisco. From emergency repairs to complete installations, we deliver reliable, high-quality workmanship with upfront pricing and 100% satisfaction guaranteed.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="tel:+14152660052" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i>
+                        <span data-i18n="hero.cta1">Call Now</span>
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        <span data-i18n="hero.cta2">Our Services</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20">0</span>
+                        <span class="stat-label" data-i18n="hero.stats.years">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5000">0</span>
+                        <span class="stat-label" data-i18n="hero.stats.projects">Projects Done</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="150">0</span>
+                        <span class="stat-label" data-i18n="hero.stats.reviews">5-Star Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-right">
+                    <div class="about-img-wrapper main-img">
+                        <img src="images/plumbing-service-san-francisco-01.jpg" alt="Gomez Plumbing professional plumber at work in San Francisco" loading="lazy">
+                        <div class="experience-badge">
+                            <span class="exp-number">20+</span>
+                            <span class="exp-text" data-i18n="about.experience">Years of Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-img-grid">
+                        <img src="images/plumbing-service-san-francisco-02.jpg" alt="Professional plumbing services - water heater installation" loading="lazy">
+                        <img src="images/plumbing-service-san-francisco-03.jpg" alt="Emergency plumbing repair in San Francisco" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-header">
+                        <span class="section-tag" data-i18n="about.tag">Who We Are</span>
+                        <h2 class="section-title" data-i18n="about.title">San Francisco's Most Trusted Plumbing Experts</h2>
+                    </div>
+                    <p class="about-text" data-i18n="about.text1">
+                        Gomez Plumbing Services has been your trusted partner for over 20 years. Since 2004, we've been the go-to experts for residential and commercial plumbing needs throughout San Francisco and the Bay Area.
+                    </p>
+                    <p class="about-text" data-i18n="about.text2">
+                        Our family-owned business prides itself on reliable, high-quality workmanship, using state-of-the-art tools and eco-friendly practices to solve problems fast—without the hassle. Licensed, insured, and backed by thousands of 5-star reviews, we guarantee satisfaction or we'll make it right.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="about.features.licensed">Licensed & Insured</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="about.features.warranty">1-Year Labor Warranty</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="about.features.pricing">Upfront Pricing</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="about.features.eco">Eco-Friendly Practices</span>
+                        </div>
+                    </div>
+                    <a href="tel:+14152660052" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i>
+                        <span data-i18n="about.cta">Get a Free Estimate</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-grid">
+                <div class="video-wrapper" data-aos="fade-up">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/before-after-plumbing-video-01.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+                <div class="video-wrapper" data-aos="fade-up" data-aos-delay="100">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/belmont-plumbing-project-video-01.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header center" data-aos="fade-up">
+                <span class="section-tag" data-i18n="services.tag">What We Offer</span>
+                <h2 class="section-title" data-i18n="services.title">Comprehensive Plumbing Services</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">From routine maintenance to urgent fixes, we deliver lasting solutions with upfront pricing and a 1-year warranty on labor.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3 data-i18n="services.emergency.title">Emergency Repairs</h3>
+                    <p data-i18n="services.emergency.desc">24/7 availability for leaks, bursts, and clogs. Fast response when you need us most.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3 data-i18n="services.drain.title">Drain Cleaning</h3>
+                    <p data-i18n="services.drain.desc">Professional unclogging using hydro-jetting and advanced snake tools.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-i18n="services.pipe.title">Pipe Services</h3>
+                    <p data-i18n="services.pipe.desc">Installation and replacement in copper, PEX, PVC, and galvanized.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 data-i18n="services.heater.title">Water Heaters</h3>
+                    <p data-i18n="services.heater.desc">Repair and installation of tankless, gas, and electric water heaters.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-faucet"></i>
+                    </div>
+                    <h3 data-i18n="services.fixture.title">Fixture Installation</h3>
+                    <p data-i18n="services.fixture.desc">Sinks, faucets, toilets, showers, and bathtubs installed professionally.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 data-i18n="services.leak.title">Leak Detection</h3>
+                    <p data-i18n="services.leak.desc">Advanced camera technology for slab leaks and hidden pipe detection.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 data-i18n="services.sewer.title">Sewer Line Services</h3>
+                    <p data-i18n="services.sewer.desc">Inspection, repair, and replacement via trenchless methods.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 data-i18n="services.waterline.title">Water Line Services</h3>
+                    <p data-i18n="services.waterline.desc">Main lines, repiping, and pressure regulation solutions.</p>
+                </div>
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-bath"></i>
+                    </div>
+                    <h3 data-i18n="services.remodel.title">Bathroom & Kitchen Remodel</h3>
+                    <p data-i18n="services.remodel.desc">Complete plumbing for your renovation projects with expert planning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header center" data-aos="fade-up">
+                <span class="section-tag" data-i18n="portfolio.tag">Our Work</span>
+                <h2 class="section-title" data-i18n="portfolio.title">Recent Projects & Transformations</h2>
+                <p class="section-subtitle" data-i18n="portfolio.subtitle">See the quality craftsmanship we bring to every job. Click any image to view in full size.</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all" data-i18n="portfolio.filters.all">All</button>
+                <button class="filter-btn" data-filter="before-after" data-i18n="portfolio.filters.beforeAfter">Before & After</button>
+                <button class="filter-btn" data-filter="projects" data-i18n="portfolio.filters.projects">Projects</button>
+                <button class="filter-btn" data-filter="gallery" data-i18n="portfolio.filters.gallery">Gallery</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up">
+                    <img src="images/before-after-plumbing-renovation-01.jpg" alt="Before and after plumbing renovation - bathroom upgrade in San Francisco" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="50">
+                    <img src="images/before-after-plumbing-renovation-02.jpg" alt="Attic bathroom renovation project by Gomez Plumbing" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/before-after-plumbing-renovation-03.jpg" alt="Bathroom upgrade project - modern fixtures installation" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="150">
+                    <img src="images/before-after-plumbing-renovation-04.jpg" alt="Before and after plumbing transformation" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/before-after-plumbing-renovation-05.jpg" alt="Complete bathroom renovation before and after" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="250">
+                    <img src="images/before-after-plumbing-renovation-06.jpg" alt="Kitchen plumbing renovation before and after" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="before-after" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/before-after-plumbing-renovation-07.jpg" alt="Plumbing fixture upgrade before and after" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="projects" data-aos="fade-up" data-aos-delay="350">
+                    <img src="images/belmont-plumbing-project-01.jpg" alt="Belmont plumbing project - professional installation" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="projects" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/belmont-plumbing-project-02.jpg" alt="Belmont project - bathroom remodeling" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="projects" data-aos="fade-up" data-aos-delay="450">
+                    <img src="images/belmont-plumbing-project-03.jpg" alt="Belmont plumbing project completion" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gallery" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images/plumbing-service-san-francisco-04.jpg" alt="Gomez Plumbing professional service gallery" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gallery" data-aos="fade-up" data-aos-delay="550">
+                    <img src="images/plumbing-service-san-francisco-05.jpg" alt="Plumbing installation work by Gomez Plumbing" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gallery" data-aos="fade-up" data-aos-delay="600">
+                    <img src="images/gomez-plumbing-gallery-01.jpg" alt="Gomez Plumbing media gallery - quality workmanship" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gallery" data-aos="fade-up" data-aos-delay="650">
+                    <img src="images/gomez-plumbing-gallery-02.jpg" alt="Gomez Plumbing completed project showcase" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span data-i18n="portfolio.view">View Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <button class="modal-close" aria-label="Close image">&times;</button>
+        <button class="modal-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <button class="modal-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        <div class="modal-content">
+            <img src="" alt="" id="modalImage">
+            <p class="modal-caption" id="modalCaption"></p>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header center" data-aos="fade-up">
+                <span class="section-tag" data-i18n="testimonials.tag">Testimonials</span>
+                <h2 class="section-title" data-i18n="testimonials.title">What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I called Gomez Plumbing on a weekend when my kitchen sink backed up completely—total disaster during family dinner! Mike arrived within an hour, diagnosed the clog quickly, and fixed it without any mess. Professional, friendly, and fairly priced. I'll definitely use them again!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <h4>Emily R.</h4>
+                                <span data-i18n="testimonials.customer">Verified Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"We have had our old water heater for over 20 years. After some thought, we decided to get a tankless water heater. Gomez Plumbing knocked it out in a couple of hours and now my water bill is so much less, I have more space in my garage and couldn't be more relived. Thank you to the entire crew for all your hard work."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <h4>John Gonzalez</h4>
+                                <span data-i18n="testimonials.customer">Verified Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"After our water heater burst right before bedtime, Gomez Plumbing sent a technician who was super careful around our baby's room. They installed a new one efficiently and explained everything clearly. No more cold showers, and peace of mind restored. Five stars!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <h4>Richard Weiss</h4>
+                                <span data-i18n="testimonials.customer">Verified Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-dot active" data-index="0" aria-label="Testimonial 1"></button>
+                    <button class="slider-dot" data-index="1" aria-label="Testimonial 2"></button>
+                    <button class="slider-dot" data-index="2" aria-label="Testimonial 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section class="image-carousel">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="images/plumbing-service-san-francisco-01.jpg" alt="Professional plumbing service in San Francisco" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-02.jpg" alt="Water heater installation expert" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-03.jpg" alt="Emergency plumbing repairs" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-06.jpg" alt="Bathroom plumbing services" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-07.jpg" alt="Kitchen plumbing installation" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-08.jpg" alt="Pipe repair and replacement" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/plumbing-service-san-francisco-09.jpg" alt="Sewer line services" loading="lazy">
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+                <span class="indicator" data-index="3"></span>
+                <span class="indicator" data-index="4"></span>
+                <span class="indicator" data-index="5"></span>
+                <span class="indicator" data-index="6"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header center" data-aos="fade-up">
+                <span class="section-tag" data-i18n="contact.tag">Get In Touch</span>
+                <h2 class="section-title" data-i18n="contact.title">Contact Us Today</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Ready to solve your plumbing problems? Reach out for a free estimate.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-i18n="contact.phone">Phone</h3>
+                            <a href="tel:+14152660052">(415) 266-0052</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-i18n="contact.email">Email</h3>
+                            <a href="mailto:gomezplumbing650@gmail.com">gomezplumbing650@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-i18n="contact.address">Address</h3>
+                            <p>3994 Mission St, San Francisco, CA 94112</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-i18n="contact.hours">Hours</h3>
+                            <p data-i18n="contact.hoursValue">24/7 Emergency Service</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/gomez_plumbing/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.yelp.com/" target="_blank" rel="noopener noreferrer" aria-label="Review us on Yelp" class="social-link">
+                            <i class="fab fa-yelp"></i>
+                        </a>
+                        <a href="https://g.page/" target="_blank" rel="noopener noreferrer" aria-label="Find us on Google" class="social-link">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-map" data-aos="fade-left">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354384284867!2d-122.41941548468204!3d37.73938897975765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1a3e4c1b77%3A0x3e8b6c1f4d8c8c8c!2s3994%20Mission%20St%2C%20San%20Francisco%2C%20CA%2094112!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Gomez Plumbing Location - 3994 Mission St, San Francisco, CA 94112">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <img src="images/gomez-plumbing-logo.jpg" alt="Gomez Plumbing Logo" loading="lazy">
+                        <span>Gomez <span>Plumbing</span></span>
+                    </a>
+                    <p data-i18n="footer.about">Your trusted plumbing partner in San Francisco since 2004. Licensed, insured, and committed to excellence.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/gomez_plumbing/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.yelp.com/" target="_blank" rel="noopener noreferrer" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+                        <a href="https://g.page/" target="_blank" rel="noopener noreferrer" aria-label="Google"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                        <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4 data-i18n="footer.services">Services</h4>
+                    <ul>
+                        <li><a href="#services" data-i18n="services.emergency.title">Emergency Repairs</a></li>
+                        <li><a href="#services" data-i18n="services.drain.title">Drain Cleaning</a></li>
+                        <li><a href="#services" data-i18n="services.heater.title">Water Heaters</a></li>
+                        <li><a href="#services" data-i18n="services.leak.title">Leak Detection</a></li>
+                        <li><a href="#services" data-i18n="services.remodel.title">Bathroom & Kitchen Remodel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer.contact">Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+14152660052">(415) 266-0052</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:gomezplumbing650@gmail.com">gomezplumbing650@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> 3994 Mission St, San Francisco, CA 94112</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Gomez Plumbing. <span data-i18n="footer.rights">All rights reserved.</span></p>
+                <p class="author-credit">
+                    <span data-i18n="footer.developedBy">Developed by</span> 
+                    <a href="https://christian-freelance.us/" target="_blank" rel="noopener noreferrer">Christian Herencia</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <a href="https://wa.me/14152660052?text=Hi%20Gomez%20Plumbing%2C%20I%20need%20a%20plumbing%20service." 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
